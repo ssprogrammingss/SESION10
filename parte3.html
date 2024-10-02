@@ -7,7 +7,12 @@
 </head>
 <body>
     <script>
-        
+        let esmayordeedad=false;
+        let tieneliencia=true;
+        let puedeconducir=esmayordeedad && tieneliencia;
+        console.log("¿puede conducir?",puedeconducir);
+        let errordeconducir=esmayordeedad || tieneliencia;
+        console.log("¿puede conducir con errores?",errordeconducir);
     </script>
 </body>
 </html>
